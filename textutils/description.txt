@@ -1,0 +1,6 @@
+https://reactjs.org/docs/create-a-new-react-app.html
+npx create-react-app@5.0.1 my-app
+https://www.youtube.com/watch?v=hnVOvvbQrwA&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=2
+https://www.youtube.com/watch?v=hnVOvvbQrwA&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=3
+https://www.youtube.com/watch?v=JvC7aA24m4Q&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=4
+https://www.youtube.com/watch?v=wa0IVAIqbo0&list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt&index=5   8 min
