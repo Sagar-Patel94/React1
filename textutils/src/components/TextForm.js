@@ -42,7 +42,7 @@ export default function TextForm(props) {
             className="form-control"
             value={text}
             onChange={handleOnChange}
-            style={{backgroundColor: props.mode === 'dark' ? 'grey' : 'white', color: props.mode === 'dark' ? 'white' : '#042743'}}
+            style={{backgroundColor: props.mode === 'dark' ? '#b5b5b5' : 'white', color: props.mode === 'dark' ? 'black' : '#042743'}}
             id="myBox"
             rows="8"
           ></textarea>
@@ -66,12 +66,12 @@ export default function TextForm(props) {
       <div className="container my-3" style={{color: props.mode === 'dark' ? 'white' : '#042743'}}>
         <h2>Your text summary</h2>
         <p>
-          {text.split(" ").length} words and {text.length} characters
+          {text.split(" ").filter((element) => {return element.length !== 0}).length} words and {text.length} characters
         </p>
         <p>{0.008 * text.split(" ").length} Minutes read</p>
         <h2>Preview</h2>
         <p>
-          <textarea className="form-control" onChange={isDisabled} style={{backgroundColor: props.mode === 'dark' ? 'grey' : 'white', color: props.mode === 'dark' ? 'white' : 'black'}} value={text.length > 0 ? text : "Enter something in the textbox above to preview it here"}></textarea>
+          <textarea className="form-control" onChange={isDisabled} style={{backgroundColor: props.mode === 'dark' ? '#b5b5b5' : 'white', color: props.mode === 'dark' ? 'black' : 'black'}} value={text.length > 0 ? text : "Enter something in the textbox above to preview it here"}></textarea>
         </p>
       </div>
     </>
